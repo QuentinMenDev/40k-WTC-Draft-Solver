@@ -1,7 +1,7 @@
 import os  # standard libraries
 from pathlib import Path
 
-import drafter.data.matchinfo as matchinfo  # local source
+import drafter.data.match_info as match_info  # local source
 
 
 def prompt_enemy_team():
@@ -20,5 +20,5 @@ def prompt_enemy_team():
 
     enemy_team_prompt += '\n'
 
-    while matchinfo.enemy_team_name not in teams:
-        matchinfo.enemy_team_name = input(enemy_team_prompt)
+    while match_info.enemy_team_name not in teams:
+        match_info.enemy_team_name = input(enemy_team_prompt)
