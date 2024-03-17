@@ -1,6 +1,10 @@
 Deprecated==1.2.14
+inquirerpy==0.3.4
 nashpy==0.0.41
 networkx==3.2.1
 numpy==1.26.4
+pfzy==0.3.4
+prompt-toolkit==3.0.43
 scipy==1.12.0
+wcwidth==0.2.13
 wrapt==1.16.0
